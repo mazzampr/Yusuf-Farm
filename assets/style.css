@@ -25,6 +25,15 @@ body {
     color: white !important;
 }
 
+.btn-red-farm {
+    background-color: #ee3746;
+}
+
+.btn-red-farm:hover {
+    background-color: #ee3746 !important;
+    color: white !important;
+}
+
 .btn-secondary-farm {
     background-color: transparent;
     border-color: #0C3A2D;
@@ -43,6 +52,22 @@ body {
     background-color: transparent;
     border-color: #ee3746 !important;
 }
+
+.form-check-input {
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #A2A2A2 !important;
+    border-color: #A2A2A2 !important;
+    color: black !important;
+}
+
+.circle-icon {
+    width: 25px;
+    height: 25px;
+    background-color: #f5a623; /* Adjust the background color as needed */
+    border-radius: 50%;
+    color: white;
+  }
 
 .rectangle {
     width: 50px;
