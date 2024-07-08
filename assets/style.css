@@ -16,6 +16,14 @@ body {
     background-color: #0C3A2D !important;
     color: white !important;
 }
+.btn-yellow-farm {
+    background-color: #F2B149;
+}
+
+.btn-yellow-farm:hover {
+    background-color: #F2B149 !important;
+    color: white !important;
+}
 
 .btn-secondary-farm {
     background-color: transparent;
@@ -25,6 +33,15 @@ body {
 .btn-secondary-farm:hover {
     background-color: transparent;
     border-color: #0C3A2D !important;
+}
+.btn-secondary-red {
+    background-color: transparent;
+    border-color: #ee3746;
+}
+
+.btn-secondary-red:hover {
+    background-color: transparent;
+    border-color: #ee3746 !important;
 }
 
 .rectangle {
@@ -130,7 +147,9 @@ font-size: 1.25rem;
     border: 0;
 }
 
-/* Product Detail */
-
+.form-custom {
+    background-color: #F3F3F3;
+    border-radius: 10px;
+}
 
 
