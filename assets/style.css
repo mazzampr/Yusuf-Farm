@@ -1,0 +1,136 @@
+body {
+    background-color: #F5F1E9;
+    font-family: "Poppins", sans-serif;
+    color: #0C3A2D;
+}
+
+.bg-colorMain {
+    background-color: #0C3A2D;
+}
+
+.btn-primary-farm {
+    background-color: #0C3A2D;
+}
+
+.btn-primary-farm:hover {
+    background-color: #0C3A2D !important;
+    color: white !important;
+}
+
+.btn-secondary-farm {
+    background-color: transparent;
+    border-color: #0C3A2D;
+}
+
+.btn-secondary-farm:hover {
+    background-color: transparent;
+    border-color: #0C3A2D !important;
+}
+
+.rectangle {
+    width: 50px;
+    height: 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.rectangle-1 {
+background-color: #f5a623;
+}
+.rectangle-2, .rectangle-3 {
+background-color: #F2D9B1;
+}
+
+.why-section {
+    background-color: #0C3A2D;
+    margin-bottom: 180px !important;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.custom-card {
+    background-color: #6D9674;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.icon-container {
+display: flex;
+justify-content: center;
+align-items: center;
+top: 0;
+left: 50%;
+right: 50%;
+}
+
+.custom-card p {
+    margin-top: 100px;
+}
+
+header {
+    padding: 180px 165px;
+    margin-top: -70px;
+    background-image: url("../assets/img/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1034px;
+}
+
+.card-product:hover {
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #0C3A2D;
+    color: white;
+    padding: 24px 0;
+}
+.footer .footer-title {
+color: #F2B149;
+font-weight: bold;
+}
+.footer .social-icons a {
+color: white;
+margin-right: 10px;
+font-size: 1.25rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+}
+
+.nav-link.active {
+    color: #F2B149 !important;
+    font-weight: bold;
+}
+
+.nav-link.plain {
+    color: white; 
+    font-weight: normal;
+}
+.nav-link {
+    color: white; 
+    font-weight: lighter;
+}
+
+.nav-link:hover {
+    color: #F2B149;
+}
+
+.rounded-bottom {
+    border-width: 0.1px !important;
+    border-radius: 0 0 20px 20px !important;
+}
+
+/*  Category */
+.category-group .list-group {
+    border: 0;
+}
+
+.product-menus .list-group .list-group-item {
+    border: 0;
+}
+
+/* Product Detail */
+
+
+

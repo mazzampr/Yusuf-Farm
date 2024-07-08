@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yusuf Farm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="container">
+    <nav
+      class="row navbar navbar-expand-lg navbar-light bg-colorMain border border-top-0 border-white rounded-bottom shadow-lg">
+      <div class="container">
+        <a class="navbar-brand text-white ms-4" href="index.html">
+          <h3>Yusuf Farm</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="/">Beranda</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link active" href="toko.html">Toko</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
+            </li>
+
+
+          </ul>
+          <!-- Mobile Button -->
+          <div class="navbar-icons me-4">
+            <img class="me-3" src="assets/img/search.png" alt="">
+            <img class="me-3" src="assets/img/chart.png" alt="">
+            <img src="assets/img/account.png" alt="">
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Toko Content Section -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-3">
+        <div class="card">
+          <div class="card-body">
+            <div class="input-group search">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Search">
+              <span class="input-group-text">
+                <i class="bi bi-search"></i>
+              </span>
+            </div>
+            <div class="product-menus">
+              <div class="category-group">
+                <h5 class="ms-2 mt-3 fw-bold">Kategori</h5>
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action">Hewan Ternak</a>
+                  <a href="#" class="list-group-item list-group-item-action">Pakan Ternak</a>
+                  <a href="#" class="list-group-item list-group-item-action">Obat Ternak</a>
+                  <a href="#" class="list-group-item list-group-item-action">Produk Olahan</a>
+                  <a href="#" class="list-group-item list-group-item-action">Peralatan Kandang</a>
+                </div>
+              </div>
+              <div class="filter-group">
+                <h5 class="ms-2 mt-3 fw-bold">Filter Produk</h5>
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action">Produk Terlaris</a>
+                  <a href="#" class="list-group-item list-group-item-action">Produk Terbaru</a>
+                </div>
+              </div>
+              <div class="price-group">
+                <h6 class="ms-2 mt-3 fw-bold">Harga</h6>
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action">Tertinggi</a>
+                  <a href="#" class="list-group-item list-group-item-action">Terrendah</a>
+                </div>
+              </div>
+              <div class="hewan-group">
+                <h6 class="ms-2 mt-3 fw-bold">Hewan Ternak</h6>
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action">Jantan</a>
+                  <a href="#" class="list-group-item list-group-item-action">Betina</a>
+                </div>
+              </div>
+              <div class="boobot-group">
+                <h6 class="ms-2 mt-3 fw-bold">Bobot</h6>
+                <div class="list-group">
+                  <li class="list-group-item">
+                  <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio">
+                  <label class="form-check-label" for="firstRadio">21-25Kg</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                    <label class="form-check-label" for="secondRadio">26-30Kg</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+                    <label class="form-check-label" for="thirdRadio">31-35Kg</label>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-9">
+        <div class="row">
+          <div class="col-3 mt-4">
+            <div class="card rounded-3 shadow-lg">
+              <img src="assets/img/product1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Domba Dorper</h5>
+                <p class="card-text">Jantan, Bobot 21-25Kg</p>
+                <p class="text-warning">Rp 2.500.000</p>
+                <p class="text-end">50+ Terjual</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mt-4">
+            <div class="card rounded-3 shadow-lg">
+              <img src="assets/img/product1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Domba Dorper</h5>
+                <p class="card-text">Jantan, Bobot 21-25Kg</p>
+                <p class="text-warning">Rp 2.500.000</p>
+                <p class="text-end">50+ Terjual</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mt-4">
+            <div class="card rounded-3 shadow-lg">
+              <img src="assets/img/product1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Domba Dorper</h5>
+                <p class="card-text">Jantan, Bobot 21-25Kg</p>
+                <p class="text-warning">Rp 2.500.000</p>
+                <p class="text-end">50+ Terjual</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mt-4">
+            <div class="card rounded-3 shadow-lg">
+              <img src="assets/img/product1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Domba Dorper</h5>
+                <p class="card-text">Jantan, Bobot 21-25Kg</p>
+                <p class="text-warning">Rp 2.500.000</p>
+                <p class="text-end">50+ Terjual</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mt-4">
+            <div class="card rounded-3 shadow-lg">
+              <img src="assets/img/product1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Domba Dorper</h5>
+                <p class="card-text">Jantan, Bobot 21-25Kg</p>
+                <p class="text-warning">Rp 2.500.000</p>
+                <p class="text-end">50+ Terjual</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mt-4">
+            <div class="card rounded-3 shadow-lg">
+              <img src="assets/img/product1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Domba Dorper</h5>
+                <p class="card-text">Jantan, Bobot 21-25Kg</p>
+                <p class="text-warning">Rp 2.500.000</p>
+                <p class="text-end">50+ Terjual</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Card About Section -->
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="footer-title">Yusuf Farm</h3>
+          <p>Ngablak, Kec. Dander, Kabupaten Bojonegoro, Jawa Timur 62171</p>
+        </div>
+        <div class="col-md-2">
+          <h4>Support</h4>
+          <ul class="list-unstyled">
+            <li class="my-3"><a href="#" class="text-white">Contact Us</a></li>
+            <li class="my-3"><a href="#" class="text-white">Location</a></li>
+            <li class="my-3"><a href="#" class="text-white">Office</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h4>About</h4>
+          <ul class="list-unstyled">
+            <li class="my-3"><a href="#" class="text-white">Team</a></li>
+            <li class="my-3"><a href="#" class="text-white">Partners</a></li>
+            <li class="my-3"><a href="#" class="text-white">Event</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <h4>Follow</h4>
+          <div class="social-icons">
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
+            <a href="#"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap Icons CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+    rel="stylesheet">
+</body>
+
+</html>
