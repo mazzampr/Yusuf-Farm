@@ -4,6 +4,54 @@ body {
     color: #0C3A2D;
 }
 
+
+.popup-login {
+    position: absolute;
+    left: 50%;
+    width: 380px;
+    border-radius: 20px;
+    padding: 30px 40px;
+    background-color: white;
+    transform: translate(-50%, -50%) scale(0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.popup-primary {
+    position: absolute;
+    left: 50%;
+    width: 519px;
+    border-radius: 20px;
+    padding: 30px 40px;
+    background-color: white;
+    transform: translate(-50%, -50%) scale(0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.input-group {
+    max-width: 100%;
+    margin: auto;
+  }
+  .form-control {
+    border-radius: 20px 0 0 20px;
+  }
+  .input-group-text {
+    border-radius: 0 20px 20px 0;
+    background-color: white;
+  }
+
 .bg-colorMain {
     background-color: #0C3A2D;
 }
@@ -51,6 +99,12 @@ body {
 .btn-secondary-red:hover {
     background-color: transparent;
     border-color: #ee3746 !important;
+}
+
+.btn-secondary-light {
+    background-color: transparent;
+    border-color: #E1E1E1 !important;
+    box-shadow: 5px;
 }
 
 .form-check-input {
